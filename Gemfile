@@ -8,6 +8,9 @@ gem 'bcrypt'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
+  gem 'rspec-its'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 group :test do
